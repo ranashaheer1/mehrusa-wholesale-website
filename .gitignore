@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+laravel-admin/vendor/
+laravel-admin/node_modules/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+laravel-admin/.env
+laravel-admin/.env.backup
+laravel-admin/.env.production
+
+# Laravel local
+laravel-admin/composer.phar
+laravel-admin/database/*.sqlite
+laravel-admin/database/*.sqlite-*
+laravel-admin/public/hot
+laravel-admin/public/storage
+laravel-admin/storage/*.key
+laravel-admin/storage/pail
+laravel-admin/storage/logs/*
+!laravel-admin/storage/logs/.gitignore
+laravel-admin/bootstrap/cache/*.php
+!laravel-admin/bootstrap/cache/.gitignore
+
+# Build / cache
+dist/
+.vite/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cursor/
+*.phpunit.result.cache
