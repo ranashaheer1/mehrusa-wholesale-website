@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://example.com with the live domain. Paths use the hash router; switch to BrowserRouter + pre-rendering (e.g. vite-plugin-ssg) if search traffic matters. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/#/shop</loc></url>
+  <url><loc>https://example.com/#/standards</loc></url>
+  <url><loc>https://example.com/#/packaging</loc></url>
+  <url><loc>https://example.com/#/terms</loc></url>
+  <url><loc>https://example.com/#/faq</loc></url>
+  <url><loc>https://example.com/#/apply</loc></url>
+  <url><loc>https://example.com/#/contact</loc></url>
+</urlset>

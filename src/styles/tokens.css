@@ -1,0 +1,51 @@
+/* Mehrusa — Raat Neelam tokens. Generated from lib/tokens.ts */
+:root {
+  --midnight-deep: #091023;
+  --midnight-base: #0F1938;
+  --midnight-light: #18295B;
+  --pearl-sand: #E4DAC3;
+  --pearl-base: #F4F0E6;
+  --pearl-light: #F9F6F1;
+  --gold-deep: #816529;
+  --gold-base: #C7A04D;
+  --gold-light: #F0E5CE;
+  --laal-deep: #702A27;
+  --laal-base: #B54540;
+  --laal-light: #E1ADAB;
+  --zumurd-deep: #184026;
+  --zumurd-base: #27683D;
+  --zumurd-light: #40A862;
+
+  /* Fibonacci space */
+  --space-1: 8px;
+  --space-2: 13px;
+  --space-3: 21px;
+  --space-4: 34px;
+  --space-5: 55px;
+  --space-6: 89px;
+  --space-7: 144px;
+
+  /* Motion */
+  --duration-1: 0.382s;
+  --duration-2: 0.618s;
+  --duration-3: 1s;
+  --duration-4: 1.618s;
+  --ease-reveal: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Type */
+  --type-ratio: 1.272;
+  --t--1: 13px; /* Eyebrow, meta */
+  --t-0: 17px; /* Body, UI */
+  --t-1: 21px; /* Lead paragraph */
+  --t-2: 27px; /* Small heading */
+  --t-3: 34px; /* Heading */
+  --t-4: 43px; /* Section headline */
+  --t-5: 55px; /* Slogan */
+  --t-6: 70px; /* Chapter title */
+  --t-7: 89px; /* Display */
+  --t-8: 113px; /* Hero display */
+
+  /* Composition */
+  --split: 61.8%;
+  --split-rest: 38.2%;
+}
